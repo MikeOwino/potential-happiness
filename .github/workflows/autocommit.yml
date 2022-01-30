@@ -29,14 +29,14 @@ jobs:
           git config --local user.name "MikeOwino"
           git add -A
           
-          arr[0]="feat: 😂 auto commit"
-          arr[1]="feat: 😱 auto commit"
-          arr[2]="feat: 👿 auto commit"
-          arr[3]="feat: 💩 auto commit"
-          arr[4]="feat: 🙏 auto commit"
-          arr[5]="feat: 🙈 auto commit"
-          arr[6]="feat: 🐐 auto commit"
-          arr[7]="feat: 🚀 auto commit"
+          arr[0]="potential-happiness"
+          arr[1]="potential-happiness"
+          arr[2]="potential-happiness"
+          arr[3]="potential-happiness"
+          arr[4]="potential-happiness"
+          arr[5]="potential-happiness"
+          arr[6]="potential-happiness"
+          arr[7]="potential-happiness"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
